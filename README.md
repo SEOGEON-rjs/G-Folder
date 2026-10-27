@@ -83,7 +83,6 @@ To show update notices, stop versions with known problems and count usage, G-Fol
 - a **random installation ID** (e.g. `GF-7K3Q-9XMA-2PDR`) — not linked to your name, PC name or Windows account
 - program name and version, Windows version
 - start / exit times and an "in use" signal every 10 minutes
-- license key (licensed edition only)
 
 Your PC name, Windows account name, file or folder names and contents are **never** sent.
 Data is stored in Google Sheets. The full notice is shown during setup ([PRIVACY.md](PRIVACY.md)).
@@ -93,7 +92,8 @@ To have your data deleted, open an [issue](https://github.com/SEOGEON-rjs/G-Fold
 
 ## Feedback & bug reports
 
-- Please use [Issues](https://github.com/SEOGEON-rjs/G-Folder/issues). A screenshot and the steps to reproduce help a lot.
+- In the app: **Extras → Send feedback** (no account needed).
+- Or open an [issue](https://github.com/SEOGEON-rjs/G-Folder/issues). A screenshot and the steps to reproduce help a lot.
 
 ## Support
 
@@ -121,9 +121,9 @@ G-Folder is free. If it helps you, you can support development on [Ko-fi](https:
 **개인정보 안내**
 업데이트 안내, 문제가 있는 버전의 사용 중지 안내, 사용 현황 집계를 위해 실행 중에 아래 정보를 보냅니다. 전체 내용은 설치 화면과 [PRIVACY.md](PRIVACY.md)에 있습니다.
 - **무작위 설치 ID** (예: `GF-7K3Q-9XMA-2PDR`) — 이름, PC 이름, 윈도우 계정과 연결되지 않는 임의의 값
-- 프로그램 이름·버전, 윈도우 버전, 실행·종료 시각과 실행 중 신호(10분마다), 인증키(인증판만)
+- 프로그램 이름·버전, 윈도우 버전, 실행·종료 시각과 실행 중 신호(10분마다)
 
 PC 이름, 윈도우 계정 이름, 파일·폴더 이름과 내용은 **보내지 않습니다.** 정보는 Google 스프레드시트에 저장됩니다.
 
 **문의 · 후원**
-버그나 기능 요청은 [Issues](https://github.com/SEOGEON-rjs/G-Folder/issues)에 남겨 주세요. 도움이 되셨다면 [Ko-fi](https://ko-fi.com/gfolder)로 후원해 주시면 개발에 큰 힘이 됩니다.
+버그나 기능 요청은 프로그램의 **기타 → 피드백 보내기**로 보내 주시거나(계정 필요 없음) [Issues](https://github.com/SEOGEON-rjs/G-Folder/issues)에 남겨 주세요. 도움이 되셨다면 [Ko-fi](https://ko-fi.com/gfolder)로 후원해 주시면 개발에 큰 힘이 됩니다.

@@ -16,7 +16,7 @@ G-Folder is free software. To notify you about new versions, to stop the use of 
 - Program name and version
 - Windows version (e.g. Windows-10-10.0.26100)
 - Start and exit times, and an "in use" signal (every 10 minutes while running)
-- License key (only for the licensed edition)
+- Feedback text and reply email (only when you send them via [Extras > Send feedback])
 
 
 ### Information NOT sent
@@ -54,7 +54,7 @@ G-Folder 는 무료 프로그램입니다. 새 버전 안내, 문제가 있는 �
 - 프로그램 이름과 버전
 - 윈도우 버전 (예: Windows-10-10.0.26100)
 - 실행·종료 시각과 실행 중 신호 (실행 중 10분마다)
-- 인증키 (인증판을 쓰는 경우에만)
+- 피드백 내용과 답장 받을 이메일 ([기타 > 피드백 보내기]로 직접 보낼 때만)
 
 
 ### 보내지 않는 정보
