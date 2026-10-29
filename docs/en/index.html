@@ -106,7 +106,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--mut);font-siz
     <a class="btn primary" href="https://github.com/SEOGEON-rjs/G-Folder/releases/latest/download/G-Folder_Setup.exe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg> Free download</a>
     <a class="btn ghost" href="https://apps.microsoft.com/detail/9NFNQJK90126" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.5l7.5-1v7H3zM11.5 4.3L21 3v8.5h-9.5zM3 12.5h7.5v7L3 18.5zM11.5 12.5H21V21l-9.5-1.3z"/></svg> Microsoft Store</a>
   </div>
-  <div class="meta">Version 1.1.0 · 64-bit · no admin rights needed</div>
+  <div class="meta">Version <span class="ver">1.1.0</span> · 64-bit · no admin rights needed</div>
   <div class="shot"><img src="../assets/en_1_four.png" alt="G-Folder with four panes" width="1426" height="893"></div>
 </div></div>
 
@@ -155,5 +155,11 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--mut);font-siz
   <span>© 2026 G-Folder · Made by SEOGEON</span>
   <span class="sp"><a href="https://github.com/SEOGEON-rjs/G-Folder/releases">All versions</a><a href="https://github.com/SEOGEON-rjs/G-Folder/blob/main/PRIVACY.md">Privacy</a><a href="https://ko-fi.com/gfolder">Support</a><a href="https://github.com/SEOGEON-rjs/G-Folder">GitHub</a></span>
 </div></footer>
+<script>
+/* 화면의 버전 글자를 GitHub 최신 릴리스 번호로 (못 읽으면 위에 적힌 번호 그대로) */
+fetch("https://api.github.com/repos/SEOGEON-rjs/G-Folder/releases/latest").then(function(r){return r.ok?r.json():null})
+.then(function(d){if(!d||!d.tag_name)return;var v=String(d.tag_name).replace(/^v/i,"");
+document.querySelectorAll(".ver").forEach(function(e){e.textContent=v})}).catch(function(){});
+</script>
 </body>
 </html>
