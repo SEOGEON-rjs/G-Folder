@@ -65,7 +65,8 @@ G-Folder is made by an individual developer and is not code-signed yet, so Windo
 | Tab / Shift+Tab | Next / previous pane |
 | Ctrl+T / Ctrl+W | New tab / close tab |
 | Ctrl+Shift+T | Reopen closed tab |
-| Backspace, Alt+↑ | Parent folder |
+| Backspace, Alt+← | Back |
+| Alt+↑ | Parent folder |
 | Ctrl+L | Address bar |
 | Ctrl+F | Filter the current folder |
 | F2 | Rename |
