@@ -104,7 +104,7 @@ G-Folder is free. If it helps you, you can support development on [Ko-fi](https:
 
 ## 한국어
 
-**한 화면에서 폴더 여러 개를 나란히 보는 Windows용 다중 창 파일 관리자입니다.** Q-Dir처럼 화면을 2~4개로 나누고, 창마다 탭을 열어 탐색기보다 빠르게 파일을 옮기고 정리할 수 있습니다. 무료입니다.
+**한 화면에서 폴더 여러 개를 나란히 보는 Windows용 무료 폴더 프로그램(다중 창 파일 관리자)입니다.** Q-Dir처럼 화면을 2~4개로 나누고, 창마다 탭을 열어 탐색기보다 빠르게 파일을 옮기고 정리할 수 있습니다. 무료입니다.
 
 - [**G-Folder_Setup.exe 다운로드**](https://github.com/SEOGEON-rjs/G-Folder/releases/latest/download/G-Folder_Setup.exe) — Windows 10 / 11 (64비트), 관리자 권한 필요 없음
 - 설치 화면 왼쪽 아래에서 언어(한국어 / English)를 고를 수 있고, 설치 후에는 **기타 → 언어 (Language)** 에서 바꿀 수 있습니다.
